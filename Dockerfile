@@ -1,5 +1,5 @@
-# Use Node.js 16 as the base image
-FROM node:16
+# Use Node.js 20.3.1 as the base image
+FROM node:20.3.1
 
 # Set the working directory in the container
 WORKDIR /app
